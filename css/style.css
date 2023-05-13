@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    background-color: #ffed9d;
+}
+.container {
+    padding: 20px;
+}
+
+.base-table {
+    width: 90%;
+    height: 50%;
+    border: #000000 solid 1px;
+    border-radius: 10px;
+    margin: 0 auto 20px;
+    padding: 30px;
+}
+.today__row1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.today__row2 {
+    display: flex;
+    justify-content: space-between;
+}
+.today__row2__containerWather {
+    text-align: center;
+}
+.today__row2__temperature {
+    font-size: 68px;
+    margin-top: 20px;
+}
+.today__row1__time {
+    font-size: 24px;
+}
+.today__row2__data {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.week {
+    display: flex;
+    padding: 0;
+}
+.week__card {
+    text-align: center;
+    border-right: #000000 solid 1px;
+    padding: 0;
+    width: 20%;
+}
+.week__card:last-child{
+    border: none;
+}
